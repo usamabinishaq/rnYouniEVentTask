@@ -1,0 +1,18 @@
+export const colors = {
+  black: '#000000',
+  primary: '#0F0F0F',
+  dullBlack: '#212121',
+  secondary: '#BC61F5',
+  yellow: '#FFD600',
+  red: '#FF0000',
+  blue: '#0077FF',
+  white: '#ffffff',
+  whiteSmoke: '#F5F5F5',
+  darkGray: '#454545',
+  silver: '#C4C4C4',
+  lightGray: '#9D9D9D',
+  gray: '#7B7B7B',
+  royalBlue: '#1564EC',
+  pink: '#F5004E',
+  button: '#F9A00065',
+};
