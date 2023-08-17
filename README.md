@@ -1,68 +1,64 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Demo Event App Task
 
-# Getting Started
+Welcome to ** Demo Event Task**! This app was created as part of a task to demonstrate React Native development skills.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Getting Started
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding. and also 
+Before you begin, make sure you have Node.js and Yarn installed.
 
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
+## Step 1: Clone The Repo
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone https://github.com/usamabinishaq/rnYouniEVentTask.git
+cd rnYouniEVentTask
+yarn
 ```
-
 ## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
+Let Metro Bundler run in its own terminal. Open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
 ### For Android
-
 ```bash
 # using npm
 npm run android
 
 # OR using Yarn
-yarn android
+yarn run android
 ```
-
 ### For iOS
-
 ```bash
 # using npm
 npm run ios
 
 # OR using Yarn
-yarn ios
+yarn run ios
 ```
-
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
+## Dependencies
+These were the main dependencies to complete the task:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- [@react-native-async-storage/async-storage](https://www.npmjs.com/package/@react-native-async-storage/async-storage) (^1.19.2)
+- [@react-navigation/bottom-tabs](https://www.npmjs.com/package/@react-navigation/bottom-tabs) (^6.5.8)
+- [@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native) (^6.1.7)
+- [@react-navigation/native-stack](https://www.npmjs.com/package/@react-navigation/native-stack) (^6.9.13)
+- [@reduxjs/toolkit](https://www.npmjs.com/package/@reduxjs/toolkit) (^1.9.5)
+- [moment](https://www.npmjs.com/package/moment) (^2.29.4)
+- [react](https://www.npmjs.com/package/react) (18.2.0)
+- [react-native](https://www.npmjs.com/package/react-native) (0.72.4)
+- [react-native-add-calendar-event](https://www.npmjs.com/package/react-native-add-calendar-event) (^4.2.2)
+- [react-native-calendars](https://www.npmjs.com/package/react-native-calendars) (^1.1300.0)
+- [react-native-gesture-handler](https://www.npmjs.com/package/react-native-gesture-handler) (^2.12.1)
+- [react-native-linear-gradient](https://www.npmjs.com/package/react-native-linear-gradient) (^2.8.2)
+- [react-native-maps](https://www.npmjs.com/package/react-native-maps) (^1.7.1)
+- [react-native-safe-area-context](https://www.npmjs.com/package/react-native-safe-area-context) (^4.7.1)
+- [react-native-screens](https://www.npmjs.com/package/react-native-screens) (^3.24.0)
+- [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons) (^10.0.0)
+- [react-redux](https://www.npmjs.com/package/react-redux) (^8.1.2)
+- [redux](https://www.npmjs.com/package/redux) (^4.2.1)
+- [redux-persist](https://www.npmjs.com/package/redux-persist) (^6.0.0)
+- [redux-thunk](https://www.npmjs.com/package/redux-thunk) (^2.4.2)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
 # Troubleshooting
 
